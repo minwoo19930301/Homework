@@ -1,16 +1,10 @@
 ## Homework for Java Programming
 
-#Homework for animal class 
+# Homework for animal class 
 
-Click [Animal](https://github.com/minwoo19930301/Homework/edit/master/README.md) for 
+Click [here](https://github.com/minwoo19930301/Homework/tree/master/animal) for the code repository.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
+```Animal
 Syntax highlighted code block
 
 # Header 1
