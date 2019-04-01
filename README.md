@@ -7,10 +7,15 @@ Click [here](https://github.com/minwoo19930301/Homework/tree/master/animal) for 
 ```Animal
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+|------------------------------------------------------------------------|
 
+|                                                                        |
+
+|                                                                        |
+
+|                                                                        |
+
+|------------------------------------------------------------------------|
 - Bulleted
 - List
 
