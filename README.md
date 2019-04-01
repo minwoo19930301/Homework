@@ -1,6 +1,8 @@
-## Welcome to GitHub Pages
+## Homework for Java Programming
 
-You can use the [editor on GitHub](https://github.com/minwoo19930301/Homework/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#Homework for animal class 
+
+Click [Animal](https://github.com/minwoo19930301/Homework/edit/master/README.md) for 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
