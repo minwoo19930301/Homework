@@ -4,7 +4,7 @@
 
 Click [here](https://github.com/minwoo19930301/Homework/tree/master/animal) for the code repository.
 
-```Animal class tree
+```AnimalClassTree
 Syntax highlighted code block
 
 |-------------------------------------------------|
