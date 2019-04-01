@@ -15,6 +15,7 @@ Syntax highlighted code block
 |Dog                   |  Cat                     |
 |-------------------------------------------------|
 
+
 +updated
 |----------------------------------|--------------|
 |Animal(abstract)                  |Robot(abs)    |                       
