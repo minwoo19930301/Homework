@@ -1,0 +1,81 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 280 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 78260 0 0
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 241 1 1 0 -1
+ciMethod java/lang/String <init> ([CII)V 2033 1 10834 0 704
+ciMethod java/lang/String checkBounds ([BII)V 2153 1 6424 0 -1
+ciMethod java/lang/String <init> ([BIILjava/lang/String;)V 2289 1 15973 0 2080
+ciMethod java/lang/String length ()I 4097 1 48245 0 64
+ciMethod java/lang/String equals (Ljava/lang/Object;)Z 2177 9953 2003 0 -1
+ciMethod java/lang/String startsWith (Ljava/lang/String;I)Z 2049 3969 4355 0 448
+ciMethod java/lang/String endsWith (Ljava/lang/String;)Z 2065 1 7267 0 0
+ciMethod java/lang/String hashCode ()I 2857 32769 1270 0 288
+ciMethod java/lang/String lastIndexOf (II)I 945 32825 784 0 288
+ciMethod java/lang/String lastIndexOfSupplementary (II)I 0 0 1 0 -1
+ciMethod java/lang/String indexOf (Ljava/lang/String;)I 2057 1 2662 0 -1
+ciMethod java/lang/String substring (II)Ljava/lang/String; 2049 1 7075 0 960
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 7169 1 896 0 -1
+ciMethod java/lang/ref/Reference get ()Ljava/lang/Object; 2065 1 258 0 -1
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;)V 1081 1 1830 0 0
+ciMethod java/lang/ref/Reference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2073 1 3215 0 0
+ciMethod java/lang/ref/SoftReference <init> (Ljava/lang/Object;)V 1001 1 1766 0 0
+ciMethod java/lang/ref/SoftReference get ()Ljava/lang/Object; 2049 1 19462 0 0
+ciMethod java/util/Map get (Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/lang/AbstractStringBuilder <init> (I)V 673 1 3579 0 -1
+ciMethod java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder; 1137 1 5559 0 -1
+ciMethod java/lang/StringBuilder <init> ()V 649 1 2760 0 0
+ciMethod java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder; 1121 1 5586 0 0
+ciMethod java/lang/StringBuilder toString ()Ljava/lang/String; 649 1 2795 0 0
+ciMethod java/lang/NullPointerException <init> (Ljava/lang/String;)V 0 0 1 0 -1
+ciMethod java/util/List add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 401 1 1649 0 0
+ciMethod java/util/AbstractCollection <init> ()V 329 1 2085 0 0
+ciMethod java/util/ArrayList <init> ()V 129 1 1610 0 0
+ciMethod java/util/ArrayList calculateCapacity ([Ljava/lang/Object;I)I 713 1 15248 0 -1
+ciMethod java/util/ArrayList ensureCapacityInternal (I)V 713 1 15248 0 -1
+ciMethod java/util/ArrayList ensureExplicitCapacity (I)V 713 1 15248 0 -1
+ciMethod java/util/ArrayList grow (I)V 97 1 206 0 -1
+ciMethod java/util/ArrayList add (Ljava/lang/Object;)Z 713 1 15248 0 288
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2057 1 23331 0 0
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2073 1 7296 0 960
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 1857 25 7933 0 800
+ciMethod java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; 657 1 4760 0 0
+ciMethod java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object; 689 49 4765 0 0
+ciMethod java/util/HashMap resize ()[Ljava/util/HashMap$Node; 345 1281 531 0 0
+ciMethod java/util/HashMap treeifyBin ([Ljava/util/HashMap$Node;I)V 0 0 1 0 -1
+ciMethod java/util/HashMap removeNode (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/util/HashMap$Node; 9 1 1 0 -1
+ciMethod java/util/HashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 2121 1 2897 0 0
+ciMethod java/util/HashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 2049 1 265 0 0
+ciMethod java/util/HashMap afterNodeInsertion (Z)V 2121 1 1289 0 0
+ciMethod java/util/HashMap$Node <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V 2049 1 4514 0 0
+ciMethod java/lang/Math min (II)I 3537 1 17812 0 -1
+ciMethod java/util/Arrays copyOfRange ([CII)[C 2049 1 5446 0 512
+ciMethodData java/lang/String length ()I 2 48930 orig 264 152 98 15 103 0 0 0 0 24 60 51 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 17 233 5 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/lang/Object <init> ()V 2 78332 orig 264 152 98 15 103 0 0 0 0 128 4 51 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 225 127 9 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/lang/StringCoding deref (Ljava/lang/ThreadLocal;)Ljava/lang/Object; 4097 1 15992 0 -1
+ciMethod java/lang/StringCoding set (Ljava/lang/ThreadLocal;Ljava/lang/Object;)V 57 1 9 0 -1
+ciMethod java/lang/StringCoding lookupCharset (Ljava/lang/String;)Ljava/nio/charset/Charset; 57 1 9 0 -1
+ciMethod java/lang/StringCoding decode (Ljava/lang/String;[BII)[C 2305 1 15973 0 -1
+ciMethod java/lang/StringCoding$StringDecoder charsetName ()Ljava/lang/String; 25 1 4 0 -1
+ciMethod java/lang/StringCoding$StringDecoder requestedCharsetName ()Ljava/lang/String; 1073 1 134 0 -1
+ciMethod java/lang/StringCoding$StringDecoder decode ([BII)[C 2441 1 15973 0 -1
+ciMethod java/lang/StringCoding$StringDecoder <init> (Ljava/nio/charset/Charset;Ljava/lang/String;Ljava/lang/StringCoding$1;)V 33 1 5 0 -1
+ciMethod java/util/LinkedHashMap linkNodeLast (Ljava/util/LinkedHashMap$Entry;)V 2057 1 1662 0 0
+ciMethod java/util/LinkedHashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node; 2049 1 1662 0 0
+ciMethod java/util/LinkedHashMap afterNodeInsertion (Z)V 3097 1 1662 0 0
+ciMethod java/util/LinkedHashMap afterNodeAccess (Ljava/util/HashMap$Node;)V 0 0 1 0 0
+ciMethod java/util/LinkedHashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2065 1 11376 0 1056
+ciMethod java/util/LinkedHashMap removeEldestEntry (Ljava/util/Map$Entry;)Z 1321 1 165 0 0
+ciMethod java/util/LinkedHashMap$Entry <init> (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V 2049 1 1662 0 0
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap$TreeNode putTreeVal (Ljava/util/HashMap;[Ljava/util/HashMap$Node;ILjava/lang/Object;Ljava/lang/Object;)Ljava/util/HashMap$TreeNode; 0 0 1 0 -1
+ciMethod java/util/HashMap$TreeNode split (Ljava/util/HashMap;[Ljava/util/HashMap$Node;II)V 0 0 1 0 -1
+ciMethodData java/lang/String hashCode ()I 2 21103 orig 264 152 98 15 103 0 0 0 0 184 79 51 21 0 0 0 0 152 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 0 0 137 28 0 0 121 19 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 11 0 2 0 0 0 120 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 15 0x60007 0x13a 0x78 0x257 0xe0007 0x1 0x58 0x256 0x1e0007 0x256 0x38 0x425c 0x2d0003 0x425c 0xffffffffffffffe0 oops 0
+ciMethodData java/util/Arrays copyOfRange ([CII)[C 2 5446 orig 264 152 98 15 103 0 0 0 0 96 155 68 21 0 0 0 0 120 2 0 0 240 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 49 162 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 32 1 0 0 255 255 255 255 7 0 5 0 0 0 0 0 data 36 0x50007 0x1446 0x100 0x0 0x100002 0x0 0x140005 0x0 0x0 0x0 0x0 0x0 0x190005 0x0 0x0 0x0 0x0 0x0 0x1d0005 0x0 0x0 0x0 0x0 0x0 0x200005 0x0 0x0 0x0 0x0 0x0 0x230002 0x0 0x360002 0x1446 0x390002 0x1446 oops 0
+ciMethodData java/lang/String <init> ([CII)V 2 10834 orig 264 152 98 15 103 0 0 0 0 88 49 51 21 0 0 0 0 80 2 0 0 64 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 254 0 0 0 161 74 1 0 1 0 0 0 9 20 0 0 0 0 0 0 2 0 0 0 0 0 14 0 2 0 0 0 240 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 30 0x10002 0x2954 0x50007 0x2954 0x30 0x0 0xd0002 0x0 0x12e007 0x2934 0x70 0x21 0x160007 0x21 0x30 0x0 0x1e0002 0x0 0x250007 0x0 0x20 0x21 0x370007 0x2934 0x30 0x0 0x410002 0x0 0x4b0002 0x2934 oops 0
+ciMethodData java/lang/String startsWith (Ljava/lang/String;I)Z 2 13851 orig 264 152 98 15 103 0 0 0 0 176 77 51 21 0 0 0 0 176 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 240 1 0 0 25 128 0 0 89 161 1 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 13 0 2 0 0 0 128 0 0 0 255 255 255 255 7 0 25 0 0 0 0 0 data 16 0x190007 0x0 0x40 0x1003 0x250007 0xf52 0x20 0xb1 0x2f0007 0x10a 0x40 0x3430 0x410007 0x25e8 0xffffffffffffffe0 0xe48 oops 0
+ciMethodData java/util/HashMap hash (Ljava/lang/Object;)I 2 23331 orig 264 152 98 15 103 0 0 0 0 224 131 65 21 0 0 0 0 176 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 17 209 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 104 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 13 0x10007 0x5a22 0x38 0x0 0x50003 0x0 0x48 0x90005 0x37a5 0x37591a0 0x1e26 0x17c101d0 0x457 oops 2
