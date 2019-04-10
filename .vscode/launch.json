@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Gui3",
+            "request": "launch",
+            "mainClass": "gui.Gui3",
+            "projectName": "Homework_df066c9a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Gui2",
+            "request": "launch",
+            "mainClass": "gui.Gui2",
+            "projectName": "Homework_df066c9a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Gui",
+            "request": "launch",
+            "mainClass": "gui.Gui",
+            "projectName": "Homework_df066c9a"
+        }
+    ]
+}

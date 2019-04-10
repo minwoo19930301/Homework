@@ -1,3 +1,4 @@
+package animal;
 import java.util.ArrayList;
 //main class
 public class AnimalLauncher {
@@ -13,6 +14,7 @@ public class AnimalLauncher {
 	vet.askName(doggy);
 	PetOwner own= new PetOwner();
 	own.answerName(doggy);
+	System.out.println("s");
 	}
 }
 

@@ -1,3 +1,4 @@
+package animal;
 //concrete Dog objects extends Canine-Animal-Object
 public class Dog extends Canine{
 	//dogs have owners usually, but starts with null

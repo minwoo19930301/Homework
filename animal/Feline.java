@@ -1,3 +1,4 @@
+package animal;
 //abstract class Feline
 public abstract class Feline extends Animal{
 	//abstract method cry is already abstract

@@ -1,3 +1,4 @@
+package animal;
 //Animal's subclass canine
 public abstract class Canine extends Animal{
 	//override cry

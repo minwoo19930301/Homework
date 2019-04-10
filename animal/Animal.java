@@ -1,3 +1,4 @@
+package animal;
 //abstract superclass Animal
 public abstract class Animal {
 	//instance variables

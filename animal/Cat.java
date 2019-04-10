@@ -1,3 +1,4 @@
+package animal;
 //concrete cat that extends Feline, Animal, Object
 public class Cat extends Feline{
 	public Cat(int _size, String _name) {

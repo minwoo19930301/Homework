@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Gui",
+            "request": "launch",
+            "mainClass": "Gui",
+            "projectName": "gui_e6817e46"
+        }
+    ]
+}
