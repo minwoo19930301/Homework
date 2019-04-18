@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - smallCalcul",
+            "request": "launch",
+            "mainClass": "gui.smallCalcul",
+            "projectName": "Homework_df066c9a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Calculator",
+            "request": "launch",
+            "mainClass": "gui.Calculator",
+            "projectName": "Homework_df066c9a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Gui4",
+            "request": "launch",
+            "mainClass": "gui.Gui4",
+            "projectName": "Homework_df066c9a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Gui3",
             "request": "launch",
             "mainClass": "gui.Gui3",
