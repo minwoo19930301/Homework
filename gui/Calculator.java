@@ -31,8 +31,8 @@ public class Calculator extends JFrame{
         p1.add(but4 = new JButton("4"));
         p1.add(but5 = new JButton("5"));
         p1.add(but6 = new JButton("6"));
-     p1.add(but1 = new JButton("1"));
-     p1.add(but2 = new JButton("2"));
+        p1.add(but1 = new JButton("1"));
+        p1.add(but2 = new JButton("2"));
         p1.add(but3 = new JButton("3"));
         p1.add(butc = new JButton("0"));
         p1.add(butc = new JButton("c"));

@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CalculatorLauncher",
+            "request": "launch",
+            "mainClass": "calculator.CalculatorLauncher",
+            "projectName": "Homework_df066c9a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AnimalLauncher",
+            "request": "launch",
+            "mainClass": "animal.AnimalLauncher",
+            "projectName": "Homework_df066c9a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - smallCalcul",
             "request": "launch",
             "mainClass": "gui.smallCalcul",

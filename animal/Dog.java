@@ -3,9 +3,14 @@ package animal;
 public class Dog extends Canine{
 	//dogs have owners usually, but starts with null
 	public String owner;
+	public int size=4;
 	//constructor
 	public Dog(int _size, String _name) {
 		size=_size;
+		name=_name;
+	}
+
+	public Dog(String _name){
 		name=_name;
 	}
 	//method of being adopted
