@@ -130,7 +130,7 @@ public class Calculator extends JPanel{
                     }
             }
         }
-    }
+     }
     
 }
     

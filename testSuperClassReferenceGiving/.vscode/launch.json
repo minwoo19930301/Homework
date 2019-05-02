@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Launcher",
+            "request": "launch",
+            "mainClass": "testSuperClassReferenceGiving.Launcher",
+            "projectName": "Homework_df066c9a"
+        }
+    ]
+}
