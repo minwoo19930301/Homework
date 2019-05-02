@@ -66,6 +66,7 @@ public class Calculator extends JPanel{
                                     else{
                                         _sum=String.valueOf(sum);
                                     }
+                                    result.setText(_sum);
                                     oldNum=_sum;
                                     newNum="";
                                 }
@@ -78,6 +79,7 @@ public class Calculator extends JPanel{
                                     else{
                                         _gap=String.valueOf(gap);
                                     }
+                                    result.setText(_gap);
                                     oldNum=_gap;
                                     newNum="";    
                                 }
@@ -90,6 +92,7 @@ public class Calculator extends JPanel{
                                     else{
                                         _mul=String.valueOf(mul);
                                     }
+                                    result.setText(_mul);
                                     oldNum=_mul;
                                     newNum="";
                                 }
@@ -108,8 +111,8 @@ public class Calculator extends JPanel{
                                 }
                             }
                         });
-                        
                     }
+
                     else{
                         buttons[i].addActionListener(new ActionListener(){
                             public void actionPerformed(ActionEvent e){
