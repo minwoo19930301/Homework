@@ -1,4 +1,4 @@
-package calculator;
+ package calculator;
 import java.awt.GridLayout;
 import java.awt.event.*;
 import javax.swing.*;
@@ -12,7 +12,7 @@ public class Calculator extends JPanel{
     public static JTextField result;
 
     public Calculator(){
-        this.add(result=new JTextField(16));
+        this.add(result=new JTextField(14));
         this.add(new PadPanel());
     }
    
