@@ -31,4 +31,4 @@ Click [here](https://github.com/minwoo19930301/Homework/tree/master/calculator).
 
 # Calculator Project Code - OOP style upgraded
 Click [here](https://github.com/minwoo19930301/Homework/tree/master/oopCalculator).
-<img src = "calExplain.png" width ="1152" height="648">
+<img src = "calExplain.png" width ="1152" height="598">
