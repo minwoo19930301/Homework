@@ -20,7 +20,7 @@ Click [here](https://github.com/minwoo19930301/Homework/tree/master/animal) for 
 
 # Pokemon class
 ### introduction of downcasting and cloning
-<img src = "calExplain.png" width ="602" height="463">
+<img src = "pokemon.png" width ="602" height="463">
 Click [here](https://github.com/minwoo19930301/Homework/tree/master/pokemonJava). 
 
 # Gui Practice
