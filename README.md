@@ -15,16 +15,15 @@ Click [here](https://github.com/minwoo19930301/Homework/tree/master/animal) for 
 |-------------------------------------------------|
 
 
-
-
 +updated Pet interface and Robot-RobotDog class tree
 ```
 
 # Pokemon class
 ### introduction of downcasting and cloning
+<img src = "calExplain.png" width ="602" height="463">
 Click [here](https://github.com/minwoo19930301/Homework/tree/master/pokemonJava). 
 
-# Gui Code
+# Gui Practice
 Click [here](https://github.com/minwoo19930301/Homework/tree/master/gui). 
 
 # Calculator Project Code
