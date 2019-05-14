@@ -1,7 +1,9 @@
 ## Homework for Java Programming
 
 # Serialization practice
-Click [here](https://github.com/minwoo19930301/Homework/tree/master/oopCalculator).
+Class Tree : Person>Graduate>Student(Serialized)
+and Serialization as the test main method for 
+Click [here](https://github.com/minwoo19930301/Homework/tree/master/serialization).
 
 # Calculator Project Code - OOP style upgraded
 Click [here](https://github.com/minwoo19930301/Homework/tree/master/oopCalculator).
