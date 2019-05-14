@@ -1,7 +1,9 @@
 package animal;
+
 //concrete Dog objects extends Canine-Animal-Object
 public class Dog extends Canine{
 	//dogs have owners usually, but starts with null
+	private static final long serialVersionUID =1L;
 	public String owner;
 	public int size=4;
 	//constructor
