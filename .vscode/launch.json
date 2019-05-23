@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Server",
+            "request": "launch",
+            "mainClass": "netTest.Server",
+            "projectName": "Homework_df066c9a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "netTest.Client",
+            "projectName": "Homework_df066c9a"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Serialization",
             "request": "launch",
             "mainClass": "serialization.Serialization",

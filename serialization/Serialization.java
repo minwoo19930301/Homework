@@ -14,7 +14,7 @@ public class Serialization implements Serializable{
     public static void main(String[] args) throws IOException {
         Student s = new Student(3,"Minwoo");
         Student s2 = new Student(34,"Ho");
-
+/*
         //serializing s, s2
         try {
             FileOutputStream f = new FileOutputStream("MyName.ser");
@@ -26,6 +26,7 @@ public class Serialization implements Serializable{
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+*/
         try{
         //deserializing s, s2
         FileInputStream fileStream = new FileInputStream("MyName.ser");
