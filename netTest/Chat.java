@@ -20,6 +20,7 @@ public class Chat{
         pan.add(text=new JTextField(14));
         pan.add(send=new JButton("send"));
         send.addActionListener(new ActionListener(){
+            
             public void actionPerformed(ActionEvent e){
                 try {
                     writer.println(text.getText());
