@@ -19,9 +19,9 @@ public class Server {
             serverSock = new ServerSocket(9999);
 
             while(count <= 30) {
-                clientSocket = serverSock.accept();//클라이언트의 연결요청을 받는다.
+                clientSocket = serverSock.accept();//serversocket에 
                 PrintWriter writer = new PrintWriter(clientSocket.getOutputStream());//해당 클라이언트에 쓸 수 있는 writer
-                clientOutputStreams.add(writer);//writer를 ArrayList에 넣는다.
+                server.clientOutputStreams.add(writer);//writer를 ArrayList에 넣는다.
 
                 Thread t = new Thread(new Receiver(clientSocket));//해당 클라이언트와 통신하는 thread를 생성한다.
                 t.start();
@@ -37,18 +37,14 @@ public class Server {
     
     public class Receiver implements Runnable {//Client들을 받아주는 스레드
         
-        Socket socket;
-        DataInputStream in;
-        String name;
-        BufferedReader reader;
         Socket sock;
+        BufferedReader reader;
 
         public Receiver(Socket socket) {
             try {
                 sock = socket;
-                in= new DataInputStream(sock.getInputStream());
-                
-                reader = new BufferedReader(isReader);
+                InputStreamReader in= new InputStreamReader(sock.getInputStream());
+                reader = new BufferedReader(in);
 
             } catch (Exception ex) {
                 ex.printStackTrace();
@@ -58,7 +54,7 @@ public class Server {
             String message;
             try {
                 while ((message = reader.readLine()) != null) {
-                    send(message);
+                    send_Msg(message);
                 }  
             } catch(Exception ex) {
                 ex.printStackTrace();
@@ -67,7 +63,7 @@ public class Server {
     }
 
 
-    public void tellEveryone(String message) {
+    public synchronized void send_Msg(String message) {
 
         try {
             for(int i=0 ; i<clientOutputStreams.size() ; i++) {
