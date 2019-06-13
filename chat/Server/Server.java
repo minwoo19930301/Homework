@@ -4,24 +4,28 @@ import java.util.ArrayList;
 
 public class Server {
     
-    ArrayList<PrintWriter> clientOutputStreams;//client들의 outputstream들을 모아서 보관하는 ArrayList
+    ArrayList<PrintWriter> clientOutputStreams = new ArrayList<PrintWriter>();//client들의 outputstream들을 모아서 보관하는 ArrayList
 
     public static void main(String[] args) {
-        
+        Server server = new Server();//**
+        server.go();
+    }
+
+    public void go() {
         ServerSocket serverSock;
         Socket clientSocket;
         int count = 0;
-        Thread thread[] = new Thread[10];
-        Server server = new Server();
+        
 
         try {
             //1. create serverSocket 
-            serverSock = new ServerSocket(9999);
+            serverSock = new ServerSocket(8738);
 
             while(count <= 30) {
                 clientSocket = serverSock.accept();//serversocket에 
                 PrintWriter writer = new PrintWriter(clientSocket.getOutputStream());//해당 클라이언트에 쓸 수 있는 writer
-                server.clientOutputStreams.add(writer);//writer를 ArrayList에 넣는다.
+                System.out.println(writer);
+                clientOutputStreams.add(writer);//writer를 ArrayList에 넣는다.
 
                 Thread t = new Thread(new Receiver(clientSocket));//해당 클라이언트와 통신하는 thread를 생성한다.
                 t.start();
@@ -31,9 +35,7 @@ public class Server {
         } catch (Exception ex) {
             ex.printStackTrace();
         }
-        
     }
-
     
     public class Receiver implements Runnable {//Client들을 받아주는 스레드
         
